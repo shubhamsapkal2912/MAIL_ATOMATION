@@ -40,7 +40,7 @@ for index, row in data.iterrows():
     msg['To'] = email
     msg['Subject'] = f"Intern Position at {company}"
 
-    body = f"Dear {name},\n\nI hope this email finds you well. I am writing to express my interest for the intern position at {company} in technical domain. I believe my skills and experience make me a strong candidate for this role.\n\nPlease find my resume attached for your consideration.\n\nLooking forward to hearing from you.\n\nBest regards,\nShubham Sapkal"
+    body = f"Dear {name},\n\nI hope this email finds you well. I am writing to express my interest for the intern position at {company} in technical domain. I believe my skills and experience make me a strong candidate for this role.\n\nPlease find my resume attached for your consideration.\n\nLooking forward to hearing from you.\n\nBest regards,\nYOUR_NAME"
     
     msg.attach(MIMEText(body, 'plain'))
 
